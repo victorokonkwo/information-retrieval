@@ -52,7 +52,11 @@ information_retrieval.ipynb: The Jupyter notebook that demonstrates how to perfo
 If you find any issues with the notebook or have suggestions for improvements, please feel free to open an issue or submit a pull request. Contributions are welcome!
 
 ## Limitation
-The only limitation to this project was developing the API endpoint which require infrastructure resources. I intend to use FastAPI for the ML microservice development. The notebook contains both the preprocessing and the model development. 
+This project encountered a limitation during the development of the API endpoint, as it required additional infrastructure resources. To address this, the next step involves leveraging FastAPI for the development of the ML microservice.
+
+The notebook provided encompasses both the preprocessing phase and the model development process. The information retrieval model implemented within the notebook enables the representation and retrieval of pertinent information from an extensive collection of documents, based on user queries. To enhance scalability, it is possible to utilize big data tools like Apache Spark and employ formats such as parquet, AVRO, or ORC for encoding the data.
+
+In order to create indexes on the document, the faiss Python library was utilized. However, it is important to note that there is still substantial work that lies ahead in terms of further refinement and expansion of the project.
 
 ## License
 This repository is licensed under the MIT License. You are free to use, modify, and distribute the code in this repository as long as you retain the original license header.
